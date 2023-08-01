@@ -131,6 +131,23 @@ dmypy.json
 # db file
 /db/database.db
 
+# project
+/resources/csv/
+/resources/csv/*.csv
+/resources/json/
+/resources/json/*.json
+/resources/json/*.jsonl
+/resources/json/*.json.gz
+/resources/json/*.jsonl.gz
+/resources/json/*.jsonl.zst
+/resources/json/*.json.zst
+
+/resources/xml/
+/resources/xml/*.xml
+/resources/xml/*.xml.gz
+/resources/xml/*.xml.zst
+
+
 # IDE related
 .idea/
 .vscode/

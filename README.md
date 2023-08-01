@@ -12,7 +12,7 @@ Here's a brief overview of the project's structure:
 
 - `/app`: Contains the main logic of the application. The `engine.py` script is responsible for processing and classifying income and expenses.
 
-- `/resources`: This directory is used for storing resource files, such as CSV and XLS files, which are used for data input.
+- `/resources`: This directory is used for storing resource files, such as CSV and XLS files, which are used for data input. This directory is not included in the repo, please added, you should put your files according to their format resources/csv or resources/xls.
 
 - `/db`: Contains everything related to the project's SQLite database, including migration scripts in the `migrations/` subdirectory and the `database.db` file which is the actual SQLite database file.
 
